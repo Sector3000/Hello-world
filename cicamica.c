@@ -10,3 +10,13 @@ csabacsabacsabacsabacsabacsabacsabacsabacsabacsabacsabacsaba
 jos jedan red
 evo sad sam kucao neki glupost
 i neko vreme
+
+
+Na most megyek le cigizni
+FILE *fp;
+fp = fopen ("filename.txt","r");
+if (fp!=NULL)
+{
+  fscanf(fp,"Some String\n", &var);
+  fclose (fp);
+}
